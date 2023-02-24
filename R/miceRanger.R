@@ -150,7 +150,7 @@ miceRanger <- function(
   , maxiter = 5
   , vars
   , valueSelector = c("meanMatch","value")
-  , meanMatchCandidates = pmax(round(nrow(data)*0.005),5)
+  , meanMatchCandidates = pmax(round(nrow(data)*0.001),5)
   , returnModels = FALSE
   , parallel = FALSE
   , verbose = TRUE
